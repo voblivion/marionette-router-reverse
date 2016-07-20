@@ -1,8 +1,8 @@
 {
-  "name": "AppRouteReverser.js",
+  "name": "route-reverser",
   "version": "1.0.0",
   "description": "Create correct urls correspondig to declared routes in marionette router.",
-  "main": "lib/AppRouteReverser.js",
+  "main": "lib/RouteReverser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

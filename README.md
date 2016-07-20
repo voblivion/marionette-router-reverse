@@ -14,9 +14,9 @@ In `AppRouter.js` :
 ```js
 var Mn = require('backbone.marionette');
 var AppController = require('./AppController');
-var AppRouteReverser = require('app-route-reverser');
+var RouteReverser = require('route-reverser');
 
-module.exports = Mn.AppRouter.extend(AppRouteReverser).extend({
+module.exports = Mn.AppRouter.extend(RouteReverser).extend({
   routes: {
     'index': 'index'
   },
