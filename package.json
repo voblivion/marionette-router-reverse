@@ -1,6 +1,6 @@
 {
   "name": "route-reverser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create correct urls correspondig to declared routes in marionette router.",
   "main": "lib/RouteReverser.js",
   "scripts": {
