@@ -54,6 +54,6 @@ module.exports = function() {
   app.router.navigate(app.router.reverse('todos', {category: 17});
 
   // or even
-  app.router.navigateTo('todos, {category; 17}, {trigger: true});
+  app.router.navigateTo('todos', {category; 17}, {trigger: true});
 };
 ```
