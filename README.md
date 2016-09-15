@@ -43,15 +43,15 @@ Then anywere you can generate and navigate to correct url as follow :
 
 module.exports = function() {
   // assuming app is global
-  app.router.navigate(app.router.reverse('index');
+  app.router.navigate(app.router.reverse('index'));
   // or
-  app.router.navigate(app.router.reverse('users');
+  app.router.navigate(app.router.reverse('users'));
   // or
   app.router.navigate(app.router.reverse('user', {id: 42}));
   // or
-  app.router.navigate(app.router.reverse('todos');
+  app.router.navigate(app.router.reverse('todos'));
   // or
-  app.router.navigate(app.router.reverse('todos', {category: 17});
+  app.router.navigate(app.router.reverse('todos', {category: 17}));
 
   // or even
   app.router.navigateTo('todos', {category; 17}, {trigger: true});
